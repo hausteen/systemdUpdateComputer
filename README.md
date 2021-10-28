@@ -7,7 +7,7 @@ This will only work for the "apt" package manager.
 
 This will only work for computers using "systemd" as the initialization service.
 # How to install
-Run the install.sh script as root by typing:
+Run the install.sh script as root by typing in the terminal:
 - sudo su
 - chmod +x install.sh
 - ./install.sh
