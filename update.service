@@ -1,0 +1,9 @@
+[Unit]
+Description=A systemd service to update and reboot the system
+
+[Service]
+Type=simple
+ExecStart=/root/update.sh
+
+[Install]
+WantedBy=default.target
