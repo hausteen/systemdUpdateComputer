@@ -15,4 +15,6 @@ echo "Enabling the update.timer unit file on startup"
 systemctl enable update.timer
 echo "Reloading the systemctl daemon"
 systemctl daemon-reload
-echo "Done"
+echo "Starting the update.timer unit file"
+systemctl start update.timer
+echo "Install Complete"
