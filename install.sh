@@ -4,9 +4,9 @@ chown root:root update.sh
 chown root:root update.service
 chown root:root update.timer
 echo "Setting permissions on the files"
-chmod 700 update.sh
-chmod 700 update.service
-chmod 700 update.timer
+chmod 600 update.sh
+chmod 600 update.service
+chmod 600 update.timer
 echo "Moving files to correct folder locations"
 mv update.sh /root/
 mv update.service /etc/systemd/system/
